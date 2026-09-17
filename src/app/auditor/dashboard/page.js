@@ -104,7 +104,7 @@ export default function AuditorDashboard() {
             {correctiveActions.map(action => (
               <div key={action.id} style={{ 
                 padding: '1rem', 
-                background: 'rgba(15, 23, 42, 0.4)', 
+                background: 'var(--bg-primary)', 
                 borderRadius: 'var(--radius-md)',
                 borderLeft: `3px solid ${action.status === 'Completed' ? 'var(--rag-green)' : 'var(--rag-amber)'}`
               }}>

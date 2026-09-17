@@ -82,7 +82,7 @@ export default function ClientDashboard() {
                 justifyContent: 'space-between', 
                 alignItems: 'center',
                 padding: '1.25rem',
-                background: 'rgba(255, 255, 255, 0.02)',
+                background: 'var(--bg-primary)',
                 border: '1px solid var(--border)',
                 borderRadius: 'var(--radius-md)'
               }}>
@@ -128,7 +128,7 @@ export default function ClientDashboard() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              boxShadow: '0 0 30px rgba(0,0,0,0.5)'
+              boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)'
             }}>
               <div style={{ width: '120px', height: '120px', background: 'var(--bg-primary)', borderRadius: '50%' }}></div>
             </div>

@@ -33,7 +33,7 @@ export default function ClientLayout({ children }) {
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
           <div style={{ 
-            background: 'linear-gradient(135deg, var(--brand-accent), var(--brand-primary))',
+            background: 'var(--brand-primary)',
             padding: '0.5rem',
             borderRadius: '8px'
           }}>

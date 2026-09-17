@@ -10,7 +10,7 @@ export default function Home() {
       display: 'flex', 
       alignItems: 'center', 
       justifyContent: 'center',
-      background: 'radial-gradient(circle at top, var(--bg-secondary) 0%, var(--bg-primary) 100%)',
+      background: 'var(--bg-primary)',
       padding: '2rem'
     }}>
       <div className="glass-panel animate-fade-in" style={{
@@ -35,9 +35,7 @@ export default function Home() {
               display: 'flex', 
               alignItems: 'center', 
               gap: '1rem',
-              cursor: 'pointer',
-              background: 'rgba(59, 130, 246, 0.1)',
-              border: '1px solid rgba(59, 130, 246, 0.3)'
+              cursor: 'pointer'
             }}>
               <UserCircle size={32} color="var(--brand-primary)" />
               <div style={{ textAlign: 'left' }}>
@@ -53,9 +51,7 @@ export default function Home() {
               display: 'flex', 
               alignItems: 'center', 
               gap: '1rem',
-              cursor: 'pointer',
-              background: 'rgba(139, 92, 246, 0.1)',
-              border: '1px solid rgba(139, 92, 246, 0.3)'
+              cursor: 'pointer'
             }}>
               <Building2 size={32} color="var(--brand-accent)" />
               <div style={{ textAlign: 'left' }}>

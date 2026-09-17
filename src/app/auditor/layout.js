@@ -31,7 +31,7 @@ export default function AuditorLayout({ children }) {
         zIndex: 10
       }}>
         <div style={{ padding: '1.5rem', borderBottom: '1px solid var(--border)' }}>
-          <h2 className="gradient-text" style={{ fontSize: '1.25rem', fontWeight: 700 }}>F&B Auditor Pro</h2>
+          <h2 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)' }}>F&B Auditor Pro</h2>
         </div>
         
         <nav style={{ flex: 1, padding: '1.5rem 1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
@@ -45,8 +45,8 @@ export default function AuditorLayout({ children }) {
                   gap: '0.75rem',
                   padding: '0.75rem 1rem',
                   borderRadius: 'var(--radius-md)',
-                  color: isActive ? 'white' : 'var(--text-muted)',
-                  background: isActive ? 'linear-gradient(90deg, rgba(59,130,246,0.2) 0%, transparent 100%)' : 'transparent',
+                  color: isActive ? 'var(--brand-primary)' : 'var(--text-muted)',
+                  background: isActive ? 'rgba(37, 99, 235, 0.08)' : 'transparent',
                   borderLeft: isActive ? '3px solid var(--brand-primary)' : '3px solid transparent',
                   transition: 'all 0.2s ease',
                   cursor: 'pointer'
@@ -86,8 +86,7 @@ export default function AuditorLayout({ children }) {
           display: 'flex',
           alignItems: 'center',
           padding: '0 2rem',
-          background: 'rgba(15, 23, 42, 0.8)',
-          backdropFilter: 'blur(10px)',
+          background: 'var(--bg-secondary)',
           position: 'sticky',
           top: 0,
           zIndex: 5
